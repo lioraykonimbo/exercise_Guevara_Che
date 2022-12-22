@@ -1,0 +1,50 @@
+footer{
+    clear: both;  /*מונע מאלמנטים אחרים לצוף לידו*/
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+}
+img{
+    right: 100px;
+    height:100px;
+     width:100px;
+     margin-right: auto;
+     top:3px;
+     float:right;
+ 
+}
+img.logo {
+    position: absolute;
+    margin-right: 41%;
+    margin-top: 3%;
+    width: 5%;
+    height: 13%;
+}
+header{
+    height: 140px;
+    background-color: #ccc;
+    }
+  .wrapper{
+
+            font-size: 20px;
+            width: 1500px;
+            margin:0 auto;
+        }
+        h1{
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+            color: blue;
+        
+        }
+h2{
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+    color:blueviolet;
+    font-size: 20px;
+}
+.pictures{
+    display: flex;
+ 
+}

@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+    margin: 0px;
+}
+
+/* p{
+    text-align: right;
+    background-color:yellow;
+    text-decoration-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    height: 200px;
+    font-size: large;
+} */
+footer{
+    clear: both;  /*מונע מאלמנטים אחרים לצוף לידו*/
+    height: 150px;
+    background-color: #ccc;
+    text-align: center;
+   }
+  .subtitle{
+    text-align: center;
+    font-weight: bold;
+    padding:0%;
+    margin: 0%;
+    background-color: aquamarine;
+}
+.content{
+    text-align: center;
+    font-size: small;
+    background-color:antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    right: 100px;
+    height:100px;
+     width:100px;
+     margin-right: auto;
+     top:3px;
+     float:right;
+ 
+}
+img.logo {
+    position: absolute;
+    margin-right: 41%;
+    margin-top: 3%;
+    width: 6%;
+    height: 11%;
+}
+header{
+    height: 135px;
+    background-color: #ccc;
+    }
+    footer{
+        clear: both;  /*מונע מאלמנטים אחרים לצוף לידו*/
+        height: 200px;
+        background-color: #ccc;
+    }

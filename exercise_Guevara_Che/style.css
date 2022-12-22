@@ -1,0 +1,73 @@
+/* html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+} */
+.wrapper{
+
+    font-size: 20px;
+    width: 1500px;
+    margin:0 auto;
+}
+header{
+    height: 150px;
+    background-color: #ccc;
+    }
+aside{
+    background-color: lightblue;
+    height: 250px;
+    width: 100px;
+    float: left;
+}
+article{
+    background-color: lightgreen;
+    height: 250px;
+    width: 1400px;
+    text-align: center;
+     }
+footer{
+    clear: both;  /*מונע מאלמנטים אחרים לצוף לידו*/
+    height: 200px;
+    background-color: #ccc;
+}
+#about{
+    font-size:large;
+    text-align: right;
+}
+.buttons{
+    text-decoration: none;   /*מוריד את הקו מתחת לקישור בטקסט*/
+}      
+img{
+    right: 100px;
+    height:100px;
+     width:100px;
+     margin-right: auto;
+     top:3px;
+     float:right;
+ 
+}
+img.logo {
+    position: absolute;
+    margin-right: 41%;
+    margin-top: 3%;
+    width: 5%;
+    height: 13%;
+}
+.main{
+    display: flex;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: blue;
+
+}
+
+
+

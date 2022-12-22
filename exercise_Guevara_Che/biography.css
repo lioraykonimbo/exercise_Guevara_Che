@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+    margin: 0px;
+}
+
+/* p{
+    text-align: right;
+    background-color:yellow;
+    text-decoration-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    height: 500px;
+    font-size: large;
+} */
+footer{
+    clear: both;  /*מונע מאלמנטים אחרים לצוף לידו*/
+    height: 150px;
+    background-color: #ccc;
+    text-align: center;
+   }
+   #pagenum{
+    font-size: medium;
+   }
+   header{
+    height: 150px;
+    background-color: #ccc;
+    }
+    img{
+        right: 100px;
+        height:100px;
+         width:100px;
+         margin-right: auto;
+         top:3px;
+         float:right;
+     
+    }
+    img.logo {
+        position: absolute;
+        margin-right: 41%;
+        margin-top: 3%;
+        width: 5%;
+        height: 13%;
+    }
+   
